@@ -104,5 +104,6 @@ theme: fluid
 ## repo 仓库的地址，公司的网络 只能使用 ssh协议连接
 deploy:
   type: git
-  repo: git@github.com:bazijun/bazijun.github.io.git
-  branch: master
+  repo:
+    github: git@github.com:bazijun/bazijun.github.io.git,master
+    coding: git@e.coding.net:bazijun/bzlog/bazijun.git,master

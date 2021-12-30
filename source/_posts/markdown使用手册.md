@@ -6,13 +6,8 @@ date: 2021-08-28 21:31:19
 # markdown 使用手册 
 
 > 主要整理的是 **github** 上面的 markdown (***GFM***) 的写法，但标准都很相近。
-- [markdown 使用手册](#markdown-使用手册)
-    - [换行问题](#换行问题)
-    - [首行缩进](#首行缩进)
-    - [超链接](#超链接)
-    - [图片](#图片)
-  - [vscode Markdown 快捷键](#vscode-markdown-快捷键)
-
+[TOC]
+# test
 <br/>
 
 > **!** &nbsp; **注意**

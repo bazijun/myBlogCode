@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://bazijun.github.io
-permalink: :year/:month/:day/:title/
+url: https://www.bazijun.top
+permalink: :title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -107,3 +107,59 @@ deploy:
   repo:
     github: git@github.com:bazijun/bazijun.github.io.git,master
     coding: git@e.coding.net:bazijun/bzlog/bazijun.git,master
+  -type: baidu_url_submitter
+
+
+# hexo-neat
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
+  enable: true
+  exclude:
+# 压缩css  
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'  
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-hijiki # 模型：https://huaji8.top/post/live2d-plugin-2.0/
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+
+# hexo sitemap网站地图
+baidusitemap:
+  path: baidusitemap.xml
+
+# 百度-主动推送
+baidu_url_submit:
+  count: 100 # 提交最新的一个链接
+  host: www.bazijun.com # 在百度站长平台中注册的域名
+  # token: 8OGYpxowYnhgVsUM # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
+

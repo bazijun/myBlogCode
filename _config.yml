@@ -13,13 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-<<<<<<< HEAD
-url: http://bazijun.github.io
-permalink: :year/:month/:day/:title/
-=======
 url: https://www.bazijun.top
 permalink: :title.html
->>>>>>> 5a2174c18b000b1ea8aa8c792bf00f586f258c93
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks

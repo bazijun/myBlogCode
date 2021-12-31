@@ -30,7 +30,7 @@ tab_title_separator: " - "
 
 # 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
 # Force all links to be HTTPS (applicable to HTTP mixed error)
-force_https: false
+force_https: true
 
 # 代码块的增强配置
 # Enhancements to code blocks
@@ -57,11 +57,11 @@ code:
       # 在链接中挑选 style 填入
       # Select a style in the link
       # See: https://highlightjs.org/static/demo/
-      style: "Github Gist"
+      style: "Atom One Dark"
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
-      bg_color: false
+      bg_color: true
 
     prismjs:
       # 在下方链接页面右侧的圆形按钮挑选 style 填入，也可以直接填入 css 链接
@@ -431,7 +431,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "你可以在这里，你可以存在，因为我看见了"
+    text: "新年快乐！ 我的朋友！"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -558,7 +558,7 @@ post:
     headingSelector: "h1,h2,h3,h4,h5,h6"
     # 层级的折叠深度，0 是全部折叠，大于 0 后如果存在下级标题则默认展开
     # Collapse depth. If 0, all headings collapsed. If greater than 0, it will be expanded by default if there are sub headings
-    collapseDepth: 0
+    collapseDepth: 99
 
   # 版权声明，会显示在每篇文章的结尾
   # Copyright, will be displayed at the end of each post
@@ -575,7 +575,7 @@ post:
   # Custom content at the bottom of the post page (located above the footer)
   custom:
     enable: false
-    content: '<img src="https://octodex.github.com/images/jetpacktocat.png" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">'
+    content: '<img src="https://cdn.bazijun.top/img/origin-cat.jpg" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">'
 
   # 文章图片可点击放大
   # Zoom feature of images
@@ -841,12 +841,12 @@ about:
   subtitle:
   avatar: /img/avatar.jpg
   name: "把子君"
-  intro: "不要进行无意义的反思"
+  intro: "我的理想是做 日汁儿人！"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/bazijun", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://www.douban.com/people/154479755", tip: "豆瓣" }
+    - { class: "iconfont icon-douban-fill", link: "https://www.douban.com/people/154479755/?_i=0914579Rg_h6L_", tip: "豆瓣" }
     - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/8214815", tip: "bilibili" }
     - { class: "iconfont icon-baidu-fill", link: "https://tieba.baidu.com/f?ie=utf-8&kw=%E6%8A%8A%E5%AD%90%E5%90%9B", tip: "贴吧" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/wx.png" }

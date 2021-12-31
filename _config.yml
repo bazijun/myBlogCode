@@ -5,7 +5,7 @@
 # Site
 title: 把子之家
 subtitle: '科柯洛之境'
-description: '你好吖！'
+description: '你好啊！'
 keywords:
 author: Baz Jun
 language: zh-CN
@@ -107,7 +107,6 @@ deploy:
   repo: git@39.103.228.225:/home/git/repos/blog.git
   branch: master
   -type: baidu_url_submitter
-
 
 # hexo-neat
 # 博文压缩

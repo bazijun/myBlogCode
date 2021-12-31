@@ -2,12 +2,13 @@
 title: what is good
 layout: post
 date: 2021-08-28 21:35:10
-index_img: /img/moon1.jpg
+index_img: https://cdn.bazijun.top/img/moon1.jpg
+sticky: 0
+hide: false
 categories:
-- Diary
+- 杂谈
 tags:
-- PS3
-- Games
+- 思考
 ---
 # what is good ?
 > 什么是`好`？ 这是一个宏大得问题，但是是我们作为人必须一直去思考，并回答的问题。本文只对我自己对`好`的理解进行陈述。以及些许偏题的随想和生活片段，是篇私杂散文。

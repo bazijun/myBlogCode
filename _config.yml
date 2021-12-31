@@ -148,7 +148,7 @@ live2d:
     width: 150
     height: 300
   mobile:
-    show: true
+    show: false
 
 # hexo sitemap网站地图
 baidusitemap:

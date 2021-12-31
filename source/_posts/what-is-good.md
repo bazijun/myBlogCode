@@ -3,6 +3,7 @@ title: what is good
 layout: post
 date: 2021-08-28 21:35:10
 index_img: https://cdn.bazijun.top/img/moon1.jpg
+banner_img: https://cdn.bazijun.top/img/moon1.jpg
 sticky: 0
 hide: false
 categories:
